@@ -1,0 +1,29 @@
+fazer a área do jogo - fiz
+
+alinhar o X e O - fiz
+
+fazer a animação - fiz
+
+fazer a lógica do jogo
+  adicionar o X ou O ao clicar - fiz
+  armazenar a posição do X ou O depois que clicar - fiz
+  uma vez adicionado um valor, não poder mais adicionar outro no mesmo lugar - fiz
+  lógica para quando alguém ganhar - acho que fiz
+  finalizar o jogo quando ganhar ou empatar - acho que fiz
+
+adicionar a animação ao clicar no quadrado (talvez colocar delay) - fiz
+
+criar os players - fiz
+
+colocar a interface de players na tela - fiz
+
+criar o botão de reiniciar o jogo - fiz
+
+mostrar quem foi o vencedor - fiz
+
+
+
+
+futuros:
+  escolher começar com X ou O
+  placar de quantas vezes houve vitória do X, O ou empate
