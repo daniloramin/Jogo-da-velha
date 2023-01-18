@@ -25,6 +25,8 @@ responsividade - fiz mais ou menos
 
 concertar a lógica quando ganha na última posição - fiz
 
+melhorar a resposividade no celular e os tamanhos de fonte e botão
+
 
 
 
