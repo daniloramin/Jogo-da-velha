@@ -1,12 +1,12 @@
 @keyframes clickSquare {
   0% {
-    font-size: 4rem;
+    font-size: 10vw;
   }
   50% {
-    font-size: 5.5rem;
+    font-size: 14vw;
   }
   100% {
-    font-size: 4rem;
+    font-size: 10vw;
   }
 }
 
@@ -28,7 +28,7 @@ h1 {
   flex-flow: row nowrap;
   justify-content: space-evenly;
   align-items: center;
-  width: 50%;
+  width: 800px;
   border-radius: 10px;
 }
 
@@ -54,7 +54,7 @@ h1 {
 }
 
 .game {
-  width: 400px;
+  width: 500px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -62,15 +62,48 @@ h1 {
 }
 
 .square {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 4rem;
+  font-size: 10vw;
   background-color: turquoise;
   border: 1px solid gray;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 1023px) {
+  .square {
+    width: 60px;
+    height: 60px;
+    /* font-size: 2.5rem; */
+  }
+
+  .container {
+    width: 350px;
+  }
+
+  #x,
+  #o {
+    font-size: 6rem;
+  }
+
+  #resultX,
+  #resultO {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 300px;
+  }
+
+  #resultX,
+  #resultO {
+    font-size: 1rem;
+  }
 }
 
 #restart {

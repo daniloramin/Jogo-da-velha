@@ -31,6 +31,8 @@ const click = ({ target }) => {
 
   newWinner = winner(simbols[playerTurn], playerTurn);
 
+  if (newWinner) return;
+
   if (!positions.some((p) => p == "")) {
     const x = document.getElementById("resultX");
     const o = document.getElementById("resultO");

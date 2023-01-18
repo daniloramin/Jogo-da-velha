@@ -21,9 +21,14 @@ criar o botão de reiniciar o jogo - fiz
 
 mostrar quem foi o vencedor - fiz
 
+responsividade - fiz mais ou menos
+
+concertar a lógica quando ganha na última posição - fiz
+
 
 
 
 futuros:
   escolher começar com X ou O
   placar de quantas vezes houve vitória do X, O ou empate
+  animação no X e O que ficam ao lado
