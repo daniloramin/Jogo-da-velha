@@ -1,12 +1,21 @@
 @keyframes clickSquare {
   0% {
-    font-size: 10vw;
+    font-size: 6vw;
   }
   50% {
-    font-size: 14vw;
+    font-size: 9vw;
   }
   100% {
-    font-size: 10vw;
+    font-size: 6vw;
+  }
+}
+
+@keyframes playerFloat {
+  0% {
+    transform: translateY(-5vw);
+  }
+  100% {
+    transform: translateY(5vw);
   }
 }
 
@@ -34,8 +43,13 @@ h1 {
 
 #x,
 #o {
-  font-size: 10rem;
+  font-size: 9vw;
   font-family: monospace;
+  animation-name: playerFloat;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .turn {
@@ -46,17 +60,16 @@ h1 {
 
 #resultX,
 #resultO {
-  font-size: 2rem;
+  font-size: 3vw;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: black;
-  margin-bottom: -40%;
+  margin-bottom: -0.5rem;
   -webkit-text-stroke-width: 0px;
 }
 
 .game {
-  width: 500px;
-  display: flex;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template: auto auto auto / auto auto auto;
   justify-content: center;
   align-content: center;
 }
@@ -65,7 +78,7 @@ h1 {
   width: 150px;
   height: 150px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 10vw;
+  font-size: 6vw;
   background-color: turquoise;
   border: 1px solid gray;
   display: flex;
@@ -84,25 +97,20 @@ h1 {
     width: 350px;
   }
 
-  #x,
+  /* #x,
   #o {
     font-size: 6rem;
-  }
+  } */
 
-  #resultX,
+  /* #resultX,
   #resultO {
     font-size: 1.5rem;
-  }
+  } */
 }
 
 @media only screen and (max-width: 375px) {
   .container {
     width: 300px;
-  }
-
-  #resultX,
-  #resultO {
-    font-size: 1rem;
   }
 }
 

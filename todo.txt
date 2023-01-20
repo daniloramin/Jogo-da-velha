@@ -27,10 +27,12 @@ concertar a lógica quando ganha na última posição - fiz
 
 melhorar a resposividade no celular e os tamanhos de fonte e botão
 
+utilizar grid em vez de flexbox - melhorei?
+
 
 
 
 futuros:
   escolher começar com X ou O
   placar de quantas vezes houve vitória do X, O ou empate
-  animação no X e O que ficam ao lado
+  animação no X e O que ficam ao lado - fiz
